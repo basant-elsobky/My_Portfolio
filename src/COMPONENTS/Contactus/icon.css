@@ -1,0 +1,32 @@
+.social-icons-btn {
+    display: flex;
+  }
+ .iconic{
+margin-top: 40px;
+ }
+  .icons {
+  
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    background: white;
+    margin: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+    color: rgb(220, 150, 90);
+    cursor: pointer;
+    transition:
+      all 0.15s ease;
+  }
+  .twitter:hover,
+.facebook:hover,
+.instagram:hover,
+.linkedin:hover {
+  background: var(--maincolor);
+  color: white;
+}

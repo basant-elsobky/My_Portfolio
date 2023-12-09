@@ -22,10 +22,10 @@ const Section2 = () => {
 
 
           <div className='data col-md-8 col-sm-12'>
-            <div data-aos="fade-left" data-aos-delay="20" className='name'>
+            <div data-aos="fade-right" data-aos-delay="120" className='name'>
               <h3>Basant Elsobky</h3>
               <h4 className='text-capitalize'>
-                a lead <span>wep developer</span> based in <span> egypt</span>{' '}
+                a  <span>wep developer</span> based in <span> egypt</span>{' '}
               </h4>
               <p className='text-secondary'>
                 I design and develop services for customers of all sizes, specializing in creating

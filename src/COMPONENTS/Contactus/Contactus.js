@@ -9,20 +9,20 @@ import Icons from './Icon';
 const Contactus = () => {
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_xzc465o', 'template_nbhdwcb', form.current, '7lZJeYBZWISTq6zOM')
-      .then((result) => {
-          console.log(result.text);
-          form.current.reset();
-      window.location.reload();
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+        emailjs.sendForm('service_xzc465o', 'template_nbhdwcb', form.current, '7lZJeYBZWISTq6zOM')
+            .then((result) => {
+                console.log(result.text);
+                form.current.reset();
+                window.location.reload();
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
-  
+
     return (
         <>
             <div className='fluid-container contact'>
@@ -35,14 +35,14 @@ const Contactus = () => {
                                     <h2 >Contact Us</h2>
                                 </div>
                                 <form ref={form} onSubmit={sendEmail} >
-                                <div  className="parent">
-                                    <div className="div1"><input name="user_name" className="form-control" placeholder="First Name" required/></div>
-                                    <div className="div2"><input className="form-control" placeholder="Last Name" required/></div>
-                                    <div className="div3"><input name="user_email" className="form-control" placeholder="Email" required/></div>
-                                    <div className="div4"><input name="message" className="form-control" placeholder="Message" required/></div>
-                                    <input  className='btnn'   type="submit" value="Send">
-                                    </input>
-                                </div>
+                                    <div className="parent">
+                                        <div className="div1"><input name="user_name" className="form-control" placeholder="First Name" required /></div>
+                                        <div className="div2"><input className="form-control" placeholder="Last Name" required /></div>
+                                        <div className="div3"><input name="user_email" className="form-control" placeholder="Email" required /></div>
+                                        <div className="div4"><input name="message" className="form-control" placeholder="Message" required /></div>
+                                        <input className='btnn' type="submit" value="Send">
+                                        </input>
+                                    </div>
                                 </form>
                             </div>    </div>
 
@@ -67,7 +67,7 @@ const Contactus = () => {
                                     <span>01554805151</span>
 
                                 </div>
-<Icons/>
+                                <Icons />
                             </div>
 
 

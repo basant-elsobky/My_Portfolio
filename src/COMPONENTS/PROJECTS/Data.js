@@ -11,8 +11,8 @@ const Data = [
     link: 'https://basantelsobky-portfolioo.onrender.com/    ', image: one, name: 'Portfolio', caption: 'A minimalist portfolio crafted using React.'
   },
   {
-    link: 'https://to-do-list-react-bhu0.onrender.com/ ' , image: three, name:'Todo List', caption:'A task management app for adding, completing, and deleting tasks using progressive web technology.'
-    },
+    link: 'https://to-do-list-react-bhu0.onrender.com/ ', image: three, name: 'Todo List', caption: 'A task management app for adding, completing, and deleting tasks using progressive web technology.'
+  },
 ]
 
 

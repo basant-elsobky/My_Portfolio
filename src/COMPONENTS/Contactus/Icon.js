@@ -17,7 +17,7 @@ const Icons = () => {
   href="https://www.linkedin.com/in/basant-elsobky-435528254"
   target="_blank"
 >
-  <FontAwesomeIcon icon={faLinkedinIn} style={{ color: "#0077b5" }} />
+  <FontAwesomeIcon icon={faLinkedinIn}  />
 </a>
           <a  class="icons twitter" href="https://github.com/basant-elsobky"  target="_blank">
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>

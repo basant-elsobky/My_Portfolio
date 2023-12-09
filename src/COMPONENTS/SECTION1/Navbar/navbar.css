@@ -1,41 +1,47 @@
-.header{
+.header {
     position: fixed;
     width: 100%;
     z-index: 99;
 }
 
-.nav{
-    background-color: var( --darkcolor);
 
+.nav {
+    background-color: var(--darkcolor);
 }
 
-.nav-item .nav-link:hover{
+.nav-item .nav-link:hover {
     color: white;
 }
+
+
 .logo {
     max-width: 120px;
-
 }
-.main{
+
+
+.main {
     margin: 20px 70px;
 
+    @media (max-width: 767px) {
+        margin: 20px;
+    }
 }
 
-    
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
     color: var(--maincolor);
-    font-size:20px;
-   
-    
+    font-size: 20px;
 }
+
 
 .navbar-black {
     background-color: #311E25;
-  }
-  @media (min-width: 992px) {
+}
+
+
+@media (min-width: 992px) {
     .order-lg-1 {
-      order: 1 !important;
-      margin-left: 50px;
+        order: 1 !important;
+        margin-left: 50px;
     }
-  }
+}

@@ -1,7 +1,7 @@
-.projectscard {
-
-  padding-top: 70px;
-  height: 100vh
+.projectscard{
+   
+    padding-top: 70px;
+    min-height: 100dvh;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
@@ -9,14 +9,21 @@
 :root {
   --transition-time: 2.3s;
 }
+.conw{
 
-.conw {
-  background-color: var(--darkcolor);
-  color: white;
+    background-color: var(--darkcolor);
+    color: white;
 
 }
-
 body {
   font-family: 'Oswald', sans-serif;
 
 }
+
+
+  
+
+  
+ 
+  
+ 

@@ -28,7 +28,7 @@ const Section3 = () => {
             </div>
             <div data-aos="fade-right" data-aos-delay="70" className='col-md-4 col-sm-12'>
               <Card name='Web Development
-'  icon=<FontAwesomeIcon icon={faDesktop} style={{ color: "#b1a9ac", }} /> />
+'  icon=<FontAwesomeIcon icon={faDesktop} style={{ color: "#b1a9ac",  }} /> />
             </div>
             <div data-aos="fade-right" data-aos-delay="90" className='col-md-4 col-sm-12'>
               <Card name='E-commerce

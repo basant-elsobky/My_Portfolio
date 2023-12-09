@@ -90,6 +90,7 @@ body {
 
 .progress-line .c {
   width: 80%;
+
 }
 
 .bar .progress-line span::before {
@@ -139,7 +140,6 @@ body {
   content: "80%";
 }
 
-/* ////........Media Query........//// */
 
 @media (max-width: 700px) {
   .skills {

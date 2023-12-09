@@ -13,7 +13,7 @@ const Section4 = () => {
               <div>
                 <h2>Education</h2>
               </div>
-              <div data-aos="fade-right" className='cenn' style={{ height: '500px', rowGap: '20px' }}>
+              <div data-aos="fade-right" className='cenn' style={{ height: '500px', marginBottom:'40px'  }}>
                 <Colum date='2023' place='Wichita University' />
                 <Colum date='2019-2023' place='Egyptian E-Learning University' />
               </div>
@@ -23,7 +23,7 @@ const Section4 = () => {
               <div>
                 <h2>Experience</h2>
               </div>
-              <div className='cenn2' style={{ height: '500px', rowGap: '20px' }}>
+              <div className='cenn2' style={{ height: '500px', marginBottom:'40px' }}>
                 <Colum date='2023' position='Front-End Intern' place='Sync' />
                 <Colum date='2023' position='Front-End Intern' place='Code Soft' />
                 <Colum date='2022-2023' position='Data Analysis' place='Google Freelancer' />
@@ -34,7 +34,7 @@ const Section4 = () => {
               <div>
                 <h2>My Skills</h2>
               </div>
-              <div className='cenn3' style={{ height: '500px', rowGap: '20px' }}>
+              <div className='cenn3' style={{ height: '500px', marginBottom:'40px' }}>
                 <div className="skills-bar">
 
                   <div className="bar">

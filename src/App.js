@@ -4,7 +4,7 @@ import Section2 from './COMPONENTS/SECTION2/Section2';
 import Section3 from './COMPONENTS/Section3/Section3';
 
 import Contactus from './COMPONENTS/Contactus/Contactus';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import BeatLoader from 'react-spinners/ClipLoader';
 
 

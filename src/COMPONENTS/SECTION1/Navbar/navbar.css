@@ -4,7 +4,9 @@
     z-index: 99;
 }
 
-
+.togg{
+    margin-right: 15px;
+}
 .nav {
     background-color: var(--darkcolor);
 }

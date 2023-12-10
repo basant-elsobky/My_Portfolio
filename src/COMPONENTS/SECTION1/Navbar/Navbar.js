@@ -31,7 +31,7 @@ function Navbar() {
               </NavLink>
             </div>
 
-            <div className="order-lg-3 order-4">
+            <div className="order-lg-3 order-4 togg" >
               <button
                 className="btn d-lg-none ms-auto"
                 style={{ backgroundColor: '#db9a64' }}

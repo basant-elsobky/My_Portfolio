@@ -22,7 +22,7 @@ const Icons = () => {
           <a  class="icons twitter" href="https://github.com/basant-elsobky"  target="_blank">
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </a>
-          <a     data-aos-delay="50"
+          <a     
  class="icons facebook" href="/#">
             <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
           </a>

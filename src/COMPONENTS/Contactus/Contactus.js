@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import './contactus.css'
 import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,8 +21,16 @@ const Contactus = () => {
                 console.log(error.text);
             });
     };
-
-
+    const btnsend =useRef()
+const [text , settext] = useState("Send")
+function send (){
+    settext("Done");
+    btnsend.disabled = true;
+    setTimeout(function() {
+        settext ('Send');
+       btnsend.disabled = false;
+      }, 3000);
+}
     return (
         <>
             <div className='fluid-container contact'>
@@ -40,7 +48,7 @@ const Contactus = () => {
                                         <div className="div2"><input className="form-control" placeholder="Last Name" required /></div>
                                         <div className="div3"><input name="user_email" className="form-control" placeholder="Email" required /></div>
                                         <div className="div4"><input name="message" className="form-control" placeholder="Message" required /></div>
-                                        <input className='btnn' type="submit" value="Send">
+                                        <input ref={btnsend} onClick={send} className='btnn' type="submit" value={text}>
                                         </input>
                                     </div>
                                 </form>

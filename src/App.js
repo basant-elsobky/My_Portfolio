@@ -19,30 +19,12 @@ const App = () => {
 
   };
 
-  useEffect(() => {
-
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 4000);
-  }, []);
+  
 
   return (
     <>
-      <div>
-        {loading ? (
-          <div className="loader-container">
-            <BeatLoader
-              color={color}
-              loading={loading}
-              cssOverride={override}
-              size={150}
-              aria-label="Loading Content"
-              data-testid="loader"
-            />
-          </div>
-        ) : (
-          <>
+    
+          
             <Navbar />
 
 
@@ -55,9 +37,9 @@ const App = () => {
             </Routes>
 
           </>
-        )}
-      </div>
-    </>
+        
+    
+   
   )
 }
 

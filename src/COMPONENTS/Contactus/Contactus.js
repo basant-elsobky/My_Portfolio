@@ -21,16 +21,16 @@ const Contactus = () => {
                 console.log(error.text);
             });
     };
-    const btnsend =useRef()
-const [text , settext] = useState("Send")
-function send (){
-    settext("Done");
-    btnsend.disabled = true;
-    setTimeout(function() {
-        settext ('Send');
-       btnsend.disabled = false;
-      }, 3000);
-}
+    const btnsend = useRef()
+    const [text, settext] = useState("Send")
+    function send() {
+        settext("Done");
+        btnsend.disabled = true;
+        setTimeout(function () {
+            settext('Send');
+            btnsend.disabled = false;
+        }, 3000);
+    }
     return (
         <>
             <div className='fluid-container contact'>
@@ -42,13 +42,17 @@ function send (){
                                 <div >
                                     <h2 >Contact Us</h2>
                                 </div>
-                                <form ref={form} onSubmit={sendEmail} >
+                                <form ref={form} onSubmit={(e) => {
+                                    e.preventDefault();
+                                    sendEmail(e);
+                                    send(e);
+                                }}>
                                     <div className="parent">
                                         <div className="div1"><input name="user_name" className="form-control" placeholder="First Name" required /></div>
                                         <div className="div2"><input className="form-control" placeholder="Last Name" required /></div>
                                         <div className="div3"><input name="user_email" className="form-control" placeholder="Email" required /></div>
                                         <div className="div4"><input name="message" className="form-control" placeholder="Message" required /></div>
-                                        <input ref={btnsend} onClick={send} className='btnn' type="submit" value={text}>
+                                        <input ref={btnsend} className='btnn' type="submit" value={text}>
                                         </input>
                                     </div>
                                 </form>

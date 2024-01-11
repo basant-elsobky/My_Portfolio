@@ -4,6 +4,7 @@ import two from '../images/back2.png'
 import three from '../images/three.png'
 import four from '../images/cinema.png'
 import garad from '../images/gradu.png'
+import ecommerce from "../../COMPONENTS/images/ecommerce.png"
 const Data = [
   {
     link: 'https://cinema-movie-san9.onrender.com/ ', image: four, name: 'Cinema Movie Website', caption: 'Cinema Movie Website And Search for a movie and add  With React Js.'
@@ -11,6 +12,9 @@ const Data = [
   },
   {
     link: 'https://basantelsobky-portfolioo.onrender.com/    ', image: one, name: 'Portfolio', caption: 'A minimalist portfolio crafted using React.'
+  },
+  {
+    link: 'https://e-commerce-h2s7.onrender.co', image: ecommerce, name: 'E-Commerce', caption: 'A responsive e-commerce platform for streamlined product browsing, adding to cart, and easy removal.'
   },
   {
     link: 'https://to-do-list-react-bhu0.onrender.com/ ', image: three, name: 'Todo List', caption: 'A task management app for adding, completing, and deleting tasks using progressive web technology.'

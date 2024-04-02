@@ -1,0 +1,21 @@
+.btnn{
+    
+    align-items: center;
+    justify-content: center;
+    color: var(--maincolor);
+    display: inline-block;
+    padding: 10px 49px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid #DB9A64;
+   background-color: transparent;
+    border-radius: 0px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .btnn:hover{
+    background-color: var(--maincolor);
+    color: white;
+  }

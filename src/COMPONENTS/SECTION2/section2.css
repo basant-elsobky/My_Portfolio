@@ -1,0 +1,54 @@
+.se2 {
+    background-color: var(--darkcolor);
+    color: white;
+
+}
+
+.sec3 {
+    padding-top: 100px;
+
+}
+
+.data {
+    padding-top: 50px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.cardd {
+    transition: 1s ease;
+}
+
+.cardd img:hover {
+    border-radius: 50%;
+    transition: 1s ease;
+
+}
+
+.mine {
+    height: 600px;
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+.name h3 {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: start;
+}
+
+.name h4,
+p {
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+.name span {
+    color: var(--maincolor);
+}

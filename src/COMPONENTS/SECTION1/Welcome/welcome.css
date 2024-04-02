@@ -1,0 +1,47 @@
+.home {
+  color: white !important;
+  background: url(../../images/banner.png);
+}
+
+.name {
+  min-height: 100dvh;
+  width: 100%;
+}
+
+.p2 {
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.p1 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.p3 {
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.waviy {
+  position: relative;
+}
+
+.waviy span {
+  color: var(--maincolor) !important;
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+  0%,
+  80% {
+    transform: rotateY(360deg)
+  }
+}

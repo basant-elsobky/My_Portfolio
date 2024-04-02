@@ -1,0 +1,15 @@
+.car h3{
+    color: var(--maincolor);
+    
+    line-height: 28.8px;
+    }
+    .car p{
+        color: #9BADBB;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .car{
+        border: solid var(--maincolor);
+        height: 300px;
+    }
+    

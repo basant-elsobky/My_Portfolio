@@ -1,0 +1,24 @@
+.de span{
+    background-color: black;
+    width: 80px;
+    color: white;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 20px;
+    padding: 4px 12px;
+}
+.de p{
+    font-size: 16px;
+    border-bottom: 1px dashed hsl(0, 0%, 100%,.2);
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+.de h6{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 15px;
+}

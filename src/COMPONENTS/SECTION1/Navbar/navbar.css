@@ -1,0 +1,55 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.togg {
+    margin-right: 15px;
+}
+
+.nav {
+    background-color: var(--darkcolor);
+}
+
+
+
+.logo {
+    max-width: 120px;
+}
+
+
+.main {
+    margin: 20px 70px;
+
+    @media (max-width: 767px) {
+        margin: 20px;
+    }
+}
+
+
+.navbar-nav .nav-link {
+    color: var(--maincolor);
+    font-size: 20px;
+}
+
+
+
+.navbar-nav .nav-link:focus {
+    color: white;
+}
+
+
+
+
+.navbar-black {
+    background-color: #311E25;
+}
+
+
+@media (min-width: 992px) {
+    .order-lg-1 {
+        order: 1 !important;
+        margin-left: 50px;
+    }
+}

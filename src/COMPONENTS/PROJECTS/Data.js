@@ -13,11 +13,11 @@ const Data = [
 
   },
   {
-    link: 'https://cinema-movie-san9.onrender.com/ ', image: four, name: 'Cinema Movie Website', caption: 'A website where you can check and stay updated on current weather conditions and forecasts for locations worldwide using nextjs.'
+    link: 'https://cinema-movie-san9.onrender.com/ ', image: four, name: 'Cinema Movie Website', caption: 'Cinema Movie Website And Search for a movie and add  With React Js.'
 
   },
   {
-    link: 'https://lnkd.in/ddkH3qWm ', image: weather, name: 'Weather-app Website', caption: 'Cinema Movie Website And Search for a movie and add  With React Js.'
+    link: 'https://lnkd.in/ddkH3qWm ', image: weather, name: 'Weather-app Website', caption:'Weather-app Website where you can check and stay updated on current weather conditions and forecasts for locations worldwide using nextjs.'
 
   },
   {

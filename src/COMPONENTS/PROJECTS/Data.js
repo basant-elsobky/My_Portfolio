@@ -5,6 +5,7 @@ import three from '../images/three.png'
 import four from '../images/cinema.png'
 import garad from '../images/gradu.png'
 import five from '../images/five.png'
+import weather from '../images/weather.png'
 import ecommerce from "../../COMPONENTS/images/ecommerce.png"
 const Data = [
   {

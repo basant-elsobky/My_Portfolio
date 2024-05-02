@@ -16,7 +16,7 @@ const Welcome = () => {
           <div   className="waviy">
             <span style={{ '--i': 1 }}>W</span>
             <span style={{ '--i': 2 }}>E</span>
-            <span style={{ '--i': 3 }}>P D</span>
+            <span style={{ '--i': 3 }}>b D</span>
             <span style={{ '--i': 5 }}>E</span>
             <span style={{ '--i': 6 }}>V</span>
             <span style={{ '--i': 7 }}>E</span>
